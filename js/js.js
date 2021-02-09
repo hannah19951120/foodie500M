@@ -1,30 +1,6 @@
 $(document).ready(function() {
     var storeArray=[
-        {
-            name:'聽哥的話',
-            eng:'sunstarglobe',
-            location:'大安區',
-            landing:'https://forms.gle/Cp25xh5Hj638sX4e8',
-            fill:false,
-        },{
-            name:'椰兄-中山店',
-            eng:'Cocobrother',
-            location:'大同區',
-            landing:'https://forms.gle/WJ3mnpxajyBG7vpc6',
-            fill:true,
-        },{
-            name:'椰兄-南京店',
-            eng:'Cocobrother',
-            location:'松山區',
-            landing:'https://forms.gle/WMptoepbJcjHSeWa8',
-            fill:true,
-        },{
-            name:'椰兄-大直ATT店',
-            eng:'Cocobrother',
-            location:'中山區',
-            landing:'https://forms.gle/kK7yNqRzoahbKyKXA',
-            fill:true,
-        },{
+       {
             name:'閣菱餐酒館 bistro',
             eng:'nineninebistro',
             location:'大安區',
@@ -66,12 +42,6 @@ $(document).ready(function() {
             location:'大安區',
             landing:'https://forms.gle/VujKfB1DYW1JoYxw9',
             fill:false,
-        },{
-            name:'韓之棧',
-            eng:'hanZhiZhan',
-            location:'中山區',
-            landing:'https://forms.gle/LJnvCYG5WNxW2qQJ8',
-            fill:true,
         },{
             name:'極鮮流精緻活海鮮涮涮鍋',
             eng:'gokusennryu',
