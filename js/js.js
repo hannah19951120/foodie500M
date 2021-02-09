@@ -11,19 +11,19 @@ $(document).ready(function() {
             eng:'Cocobrother',
             location:'大同區',
             landing:'https://forms.gle/WJ3mnpxajyBG7vpc6',
-            fill:false,
+            fill:true,
         },{
             name:'椰兄-南京店',
             eng:'Cocobrother',
             location:'松山區',
             landing:'https://forms.gle/WMptoepbJcjHSeWa8',
-            fill:false,
+            fill:true,
         },{
             name:'椰兄-大直ATT店',
             eng:'Cocobrother',
             location:'中山區',
             landing:'https://forms.gle/kK7yNqRzoahbKyKXA',
-            fill:false,
+            fill:true,
         },{
             name:'閣菱餐酒館 bistro',
             eng:'nineninebistro',
@@ -71,7 +71,7 @@ $(document).ready(function() {
             eng:'hanZhiZhan',
             location:'中山區',
             landing:'https://forms.gle/LJnvCYG5WNxW2qQJ8',
-            fill:false,
+            fill:true,
         },{
             name:'極鮮流精緻活海鮮涮涮鍋',
             eng:'gokusennryu',
@@ -86,7 +86,7 @@ $(document).ready(function() {
         var imgurl = 'url(img/store/'+num.eng+'.jpg)'
         item.css('background-image',imgurl);
         if(num.fill==true){
-            item.append("<div class='overray--full'>名額已滿</div>");
+            item.append("<div class='overray--full'>未開放</div>");
         }else{
             item.append('<a href="'+num.landing+'" class="link" target="_blank" ></a>');
         }
