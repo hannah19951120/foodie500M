@@ -48,7 +48,31 @@ $(document).ready(function() {
             location:'松山區',
             landing:'https://forms.gle/6Nq6wbntykxWpYGp9',
             fill:false,
-        },
+        },{
+            name:'韓之棧',
+            eng:'hanZhiZhan',
+            location:'中山區',
+            landing:'https://forms.gle/3xwEoKin1x6MC7cz7',
+            fill:false,
+        },{
+            name:'HOMELESS BISTRO<br>吾家可歸餐酒館',
+            eng:'HOMELESS',
+            location:'大安區',
+            landing:'https://forms.gle/Z2M9BE2qqJTFtEyC8',
+            fill:false,
+        },{
+            name:'丸家複合式餐酒館',
+            eng:'bistroMaru',
+            location:'大安區',
+            landing:'https://forms.gle/dw2CLUnA35T3Lcbp9',
+            fill:false,
+        },{
+            name:'K.D Bistro Taipei',
+            eng:'KDBistroTaipei',
+            location:'大安區',
+            landing:'https://forms.gle/EZHYUo1qxQtKcnJbA',
+            fill:false,
+        }
     ];
 
     function addList(num,i){
