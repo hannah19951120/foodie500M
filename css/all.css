@@ -342,4 +342,16 @@ p {
   bottom: 10px;
   color: rgba(255, 255, 255, 0.9);
 }
+
+.miniBase {
+  position: relative;
+}
+
+.miniBase:after {
+  content: '餐酒館下午7點後營業';
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
 /*# sourceMappingURL=all.css.map */
