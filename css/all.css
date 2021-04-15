@@ -354,4 +354,16 @@ p {
   bottom: 10px;
   color: rgba(255, 255, 255, 0.9);
 }
+
+.junzhiWagyu {
+  position: relative;
+}
+
+.junzhiWagyu:after {
+  content: '需先預約並告知使用Food Marco付款';
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
 /*# sourceMappingURL=all.css.map */
